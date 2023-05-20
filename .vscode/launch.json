@@ -8,7 +8,7 @@
             "type": "msedge",
             "request": "launch",
             "name": "Open index.html",
-            "file": "d:\\HTMLProjects\\CV_Site\\index.html"
+            "file": "${workspaceFolder}/index.html"
         }
     ]
 }

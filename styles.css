@@ -1,21 +1,22 @@
 /* generic stylings */
 body{
-    width: 90%;
+    width: 1000px;
     margin-left: 10px auto;
-    padding: 0 0 0 5%;
+    padding: 0 0 0 100px;
     background-color: #4c4575;
 }
 
 .background{
    background-color: #cac0c8;
-   width: 100%;
-   padding-bottom: 180px;
+   width: 1600px;
+  padding-bottom: 180px;
+   
 }
 
 h1{
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
-    font-size: 64px;  
+    font-size: 48px;  
     text-transform: uppercase;
 }
 
@@ -58,15 +59,16 @@ p[id="github"]{
     font-size: 24px;
     margin-bottom: 10px;
    border-radius: 10px;
+   margin-left: 5px;
 }
 
 a{ text-decoration: none; }
 
-a:link{ color: black; } 
+a:link{ color: blue; } 
 
 a:hover{ color: grey; }
 
-a:active{ color: darkblue; } 
+a:active{ color: green; } 
 
 a:visited{ color:lightcoral; }
 
@@ -146,9 +148,9 @@ td[class="bottom-right"]{border-bottom-right-radius: 20px;}
 /* start of skill styles*/
 
 h2[id="skills"]{
-margin-left: 70%;
+margin-left: 1150px;
 position: relative;
-bottom: 500px;
+bottom: 475px;
 
 }
 
@@ -159,9 +161,9 @@ ul[id="skill-list"]{
     line-height: 25px;
     letter-spacing: 1px;
     margin-left: 50%;
-    bottom: 0.5%;
-    min-width: 30%;
-    width: 30%;
+    bottom: 30px;
+    min-width: 600px;
+    width: 600px;
     overflow: hidden;
     
 }
@@ -171,18 +173,3 @@ div[id="bank-project"]{ margin: 5px 0px;}
 
 /* end of skill styles*/
 
-/* start of image styles */
-
-.bank-image{
-    width: 400px;
-    height: 300px;
-       
-}
-
-
-.game-image{
-    width: 400px;
-    height: 500px;
-}
-
-/* end of image styles */
