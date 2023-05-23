@@ -177,16 +177,16 @@ div[id="bank-project"]{ margin: 5px 0px;}
 
 /* optimisation styling for smaller screens */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1350px) {
     ul[id="skill-list"] {
       float: none;
       position: static;
       margin-left: 0;
-      width: 100%;
+      width: 80%;
     }
     table {
       width: 100%;
-      margin-left: 0;
+      margin-left: 30px;
     }
   }
 
