@@ -156,16 +156,18 @@ bottom: 475px;
 
 ul[id="skill-list"]{
    
+    float: right;
     position: absolute;
+    height: 500px;
     padding-right: 200px;
     line-height: 25px;
     letter-spacing: 1px;
     margin-left: 50%;
-    bottom: 30px;
     min-width: 600px;
     width: 600px;
     overflow: hidden;
-    
+    bottom: 1px;
+        
 }
 
 div[id="bank-project"]{ margin: 5px 0px;}
