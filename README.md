@@ -1,2 +1,2 @@
 # fortyjags.github.io
-Personal website holding my resume
+Personal website holding my cv
